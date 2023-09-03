@@ -13,7 +13,7 @@ public class Spawn : MonoBehaviour
 
     private int _randomPoint;
 
-    void Start()
+    private void Start()
     {
         _pointsArray = GetComponentsInChildren<Transform>();
         _enemySpawnCoroutine = StartCoroutine(SpawnEnemyes());
