@@ -55,7 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>

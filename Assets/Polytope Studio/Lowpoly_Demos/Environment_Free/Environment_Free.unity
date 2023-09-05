@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _delay: 2
-  _enemy: {fileID: 1818861082154570, guid: 5e45c8f884f6d124ea0499aae7fdbec8, type: 3}
+  _enemy: {fileID: -3780233273061588533, guid: 5e45c8f884f6d124ea0499aae7fdbec8, type: 3}
 --- !u!4 &417471451
 Transform:
   m_ObjectHideFlags: 0
