@@ -354,7 +354,9 @@
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
 "Assets/Scripts/Movement.cs"
-"Assets/Scripts/Spawn.cs"
+"Assets/Scripts/SpawnController.cs"
+"Assets/Scripts/Spawner.cs"
+"Assets/Scripts/TargetMovement.cs"
 -langversion:9.0
 
 /deterministic
