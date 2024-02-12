@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemy;
-    [SerializeField] private GameObject _target;
+    [SerializeField] private Movement _enemy;
+    [SerializeField] private Transform _target;
 
-    private GameObject _spawnedEnemy;
+    private Movement _spawnedEnemy;
 
     public void SpawnEnemy()
     {
         _spawnedEnemy = Instantiate(_enemy, transform);
-        _spawnedEnemy.GetComponent<Movement>().SetTarget(_target.transform);
+        _spawnedEnemy.SetTarget(_target);
+        _spawnedEnemy = null;
     }
 }

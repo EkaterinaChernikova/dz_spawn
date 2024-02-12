@@ -8,21 +8,21 @@ public class SpawnController : MonoBehaviour
 
     private Spawner[] _points;
 
-    private float _timer;
+    private WaitForSeconds _timer;
 
     private void Start()
     {
         _points = GetComponentsInChildren<Spawner>();
+        _timer = new WaitForSeconds(_delay);
+        StartCoroutine(Spawn());
     }
 
-    private void Update()
+    private IEnumerator Spawn()
     {
-        _timer += Time.deltaTime;
-
-        if (_timer >= _delay)
+        while (true)
         {
-            _timer = 0;
             _points[Random.Range(0, _points.Length)].SpawnEnemy();
+            yield return _timer;
         }
     }
 }

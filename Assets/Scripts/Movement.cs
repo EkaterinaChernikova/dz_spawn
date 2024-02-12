@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     private Animator _animator;
     private Transform _target;
     private float _movementSpeed = 2.0f;
-    public readonly int _walk = Animator.StringToHash(Walk);
+    private readonly int _walk = Animator.StringToHash(Walk);
 
     private void Awake()
     {
